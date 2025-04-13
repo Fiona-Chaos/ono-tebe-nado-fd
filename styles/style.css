@@ -71,7 +71,7 @@
     height: 100%;
     background-color: black;
     opacity: 60%; 
-}
+    }
 
 .cover__title {
     color: white;
@@ -285,11 +285,11 @@
     }
   
 .about__column {
-        width: 693px;
-        height: 449px;
-        margin-top: 45px; 
-        margin-left: 32px;   
-        }
+    width: 693px;
+    height: 449px;
+    margin-top: 45px; 
+    margin-left: 32px;   
+    }
 
 .about__title {
     margin: 60px 0 100px;
