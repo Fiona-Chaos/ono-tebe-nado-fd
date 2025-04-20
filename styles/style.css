@@ -67,33 +67,24 @@
 .cover__title {
     color: white;
     text-transform: uppercase;
+    font-family: Raleway, Arial, sans-serif;
     font-size: 100px;
     font-weight: 700;
     position: relative;
-    margin-right: -30px;
-    max-width: 100%;  
-}
-
-.aligned-text {
-    display: block;
-    letter-spacing: 30px;
-    font-family: Raleway;
-    line-height: 114.99999999999999%;   
+    max-width: 100%;
+    letter-spacing: 30px; 
+    line-height: 115%;
+    display: flex;
+    Flex-direction: column;
+    row-gap: 20px;
 }
 
 .aligned-text_center {
-    display: block;
-    align-content: center;
     text-align: center;
-    letter-spacing: 30px;
-    line-height: 150%;
 }
 
 .aligned-text_right {
-    display: block;
-    align-items: end;
     text-align: right;
-    letter-spacing: 29px;
 }
 
 .cover__description {
@@ -190,7 +181,7 @@
     font-size: 22px;
     line-height: 120%;
     text-transform: uppercase;
-    text-decoration: none;
+    text-decoration: underline;
     margin: 0px 0px 10px 0px;
     position: relative;
     z-index: 2;
@@ -271,12 +262,11 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 160px;
+    margin-top: 157px;
     gap: 30px;
 }
 
 .footer__contacts {
-    height: 98px;
     padding-left: 50px;
 }
 
